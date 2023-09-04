@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\assets">
+      <UniqueIdentifier>{787de922-8461-42c3-be60-69c6ed8d7323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\textures">
+      <UniqueIdentifier>{c9fafbe7-5114-47cf-b1de-9576f0e2794e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\shaders">
+      <UniqueIdentifier>{6fa8f3a5-61a4-4527-a759-5be74f2deb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\shaders\lighting">
+      <UniqueIdentifier>{a0450598-43f1-44e2-b4dd-57aadd333fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\shaders\lightSource">
+      <UniqueIdentifier>{9b81d098-acc6-48e0-a7e6-6ee9b0c4e555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\shaders\basicLighting">
+      <UniqueIdentifier>{08de007f-b235-4e82-b52c-319f7a6169e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\shaders\lightCube">
+      <UniqueIdentifier>{6a96f538-d190-46d1-bebb-723ee1606777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\lighting\lighting.frag">
+      <Filter>Resource Files\assets\shaders\lighting</Filter>
+    </None>
+    <None Include="assets\shaders\lighting\lighting.vert">
+      <Filter>Resource Files\assets\shaders\lighting</Filter>
+    </None>
+    <None Include="assets\shaders\lightSource\lightSource.frag">
+      <Filter>Resource Files\assets\shaders\lightSource</Filter>
+    </None>
+    <None Include="assets\shaders\lightSource\lightSource.vert">
+      <Filter>Resource Files\assets\shaders\lightSource</Filter>
+    </None>
+    <None Include="assets\shaders\basicLighting\basicLighting.frag">
+      <Filter>Resource Files\assets\shaders\basicLighting</Filter>
+    </None>
+    <None Include="assets\shaders\basicLighting\basicLighting.vert">
+      <Filter>Resource Files\assets\shaders\basicLighting</Filter>
+    </None>
+    <None Include="assets\shaders\lightCube\lightCube.frag">
+      <Filter>Resource Files\assets\shaders\lightCube</Filter>
+    </None>
+    <None Include="assets\shaders\lightCube\lightCube.vert">
+      <Filter>Resource Files\assets\shaders\lightCube</Filter>
+    </None>
+  </ItemGroup>
+</Project>
